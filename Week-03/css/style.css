@@ -315,3 +315,61 @@ form option {
 .fourth-paragraphs {
     float: left;
 }
+
+.lists-container {
+    width: 90%;
+    padding-bottom: 50px;
+    margin-top: 0;
+    margin-left: 40px;
+    border-bottom: 4px solid #49A37B;
+}
+
+.lists-container h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.lists {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.lists a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.lists-container li {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.lists-groups {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-container img {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.footer-container div {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 350px;
+    margin-top: 60px;
+}
+
+.footer-container p {
+    width: fit-content;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-right: 350px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: right;
+}
