@@ -10,12 +10,17 @@
   </head>
   <body>
     <aside>
-      <input type="search" name="search" placeholder="Search" />
+      <section class="search-container">
+        <input type="search" name="search" placeholder="Search" class="search" />
+      </section>
+    <section class="links-container">
       <ul type="none">
         <li><a href="">Home</a></li>
         <li><a href="">Sign Up</a></li>
         <li><a href="">Log In</a></li>
       </ul>
+    </section>
+    <section class="contact-container">
       <h3>Get in touch</h3>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -23,28 +28,32 @@
         since the 1500s, when an unknown printer took a galley of type and
         scrambled it to make a type specimen book.
       </p>
-      <ul type="none">
-        <li>
+      <address>
+        <div>
           <img src="./img/iconAdress.png" alt="Icon Adress" />1245 Sffeinvrjrs,
           Bnaudasd
-        </li>
-        <li>
+        </div>
+        <div>
           <img
             src="./img/iconEmail.png"
             alt="Icon Email"
           />sikfifkgnmss@gmail.com
-        </li>
-        <li>
+        </div>
+        <div>
           <img src="./img/iconTelephone.png" alt="Icon Telephone" />958585412225
-        </li>
-      </ul>
+        </div>
+    </address>
+    </section>
     </aside>
     <main>
-      <section>
-        <h1>Trackgenix</h1>
-        <p>by GigaTech Software Solutions SA</p>
+      <div class="main-title">
+      <h1>Trackgenix</h1>
+      <p>by GigaTech Software Solutions SA</p>
+    </div>
+      <section class="timeTracker-container">
         <h2>Time tracker for teams</h2>
-        <p>Lorem ipsum dolor sit amet</p>
+        <img src="./img/imgPrimary.png" alt="Img Primary" />
+        <h3>Lorem ipsum dolor sit amet</h3>
         <p>
           Quisque sagittis orci ut diam condimentum, vel euismod erat placerat.
           In iaculis arcu eros, eget tempus orci facilisis id.Lorem ipsum dolor
@@ -57,11 +66,11 @@
           Quisque sagittis orci ut diam condimentum, vel euismod erat placerat.
           In iaculis arcu eros, eget tempus orci facilisis id.
         </p>
-        <img src="./img/imgPrimary.png" alt="Img Primary" />
         <a href="">LEARN MORE</a>
       </section>
-      <section>
+      <section class="functions-container">
         <h2>Functions</h2>
+        <div class="trackWorkHours-management">
         <img src="./img/iconTime.png" alt="Icon Time" />
         <h3>Track work hours</h3>
         <p>
@@ -70,14 +79,8 @@
           mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis
           tellus..
         </p>
-        <img src="./img/iconResources.png" alt="Icon Resources" />
-        <h3>Management</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
-          Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla,
-          mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis
-          tellus..
-        </p>
+      </div>
+      <div class="reports-multipleRoles">
         <img src="./img/iconReports.png" alt="Icon Reports" />
         <h3>Reports</h3>
         <p>
@@ -86,6 +89,18 @@
           mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis
           tellus..
         </p>
+      </div>
+      <div class="trackWorkHours-management">
+        <img src="./img/iconResources.png" alt="Icon Resources" />
+        <h3>Management</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
+          Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla,
+          mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis
+          tellus..
+        </p>
+      </div>
+      <div class="reports-multipleRoles">
         <img src="./img/iconRoles.png" alt="Icon Roles" />
         <h3>Multiple roles</h3>
         <p>
@@ -94,9 +109,11 @@
           mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis
           tellus..
         </p>
+      </div>
       </section>
-      <section>
+      <section class="article-container">
         <h2>Why track time with Trackgenix?</h2>
+        <div class="article">
         <h3>Boost Productivity</h3>
         <img src="./img/iconBoost.png" alt="Boost Productivity" />
         <p>
@@ -104,6 +121,8 @@
           Aliquam in hendrerit urna. Pellentesque sit amet sapien dcveve f vesv
           vev.
         </p>
+      </div>
+      <div class="article">
         <h3>Manage team</h3>
         <img src="./img/iconMultipleRoles.png" alt="Manage Team" />
         <p>
@@ -111,6 +130,8 @@
           Aliquam in hendrerit urna. Pellentesque sit amet sapien dcveve f vesv
           vev.
         </p>
+      </div>
+      <div class="article">
         <h3>Business intelligence</h3>
         <img
           src="./img/iconBusinessIntelligence.png"
@@ -121,6 +142,8 @@
           Aliquam in hendrerit urna. Pellentesque sit amet sapien dcveve f vesv
           vev.
         </p>
+      </div>
+      <div class="article">
         <h3>Decision-making</h3>
         <img src="./img/iconDecisionMaking.png" alt="Decision-making" />
         <p>
@@ -128,12 +151,13 @@
           Aliquam in hendrerit urna. Pellentesque sit amet sapien dcveve f vesv
           vev.
         </p>
+      </div>
       </section>
-      <section>
+      <section class="contact-container">
         <h2>Contact us</h2>
         <form>
-          <input type="text" name="user_name" placeholder="Name" />
-          <input type="email" name="user_mail" placeholder="Email" />
+          <input type="text" name="user_name" placeholder="Name" class="input-contact"/>
+          <input type="email" name="user_mail" placeholder="Email" class="input-contact"/>
           <select name="area">
             <option value="" disabled selected>Area</option>
             <option value="">Administration</option>
@@ -141,12 +165,12 @@
             <option value="">Reception</option>
           </select>
           <label for="msg">Message</label>
-          <textarea name="user_message" placeholder="Text"></textarea>
-          <input type="submit" value="Submit" />
-          <input type="reset" value="Reset" />
+          <textarea name="user_message" placeholder="Text" rows="7"></textarea>
+          <input type="submit" value="Submit" class="submit"/>
+          <input type="reset" value="Reset" class="reset"/>
         </form>
       </section>
-      <section>
+      <section class="aboutUs-container">
         <h2>About us</h2>
         <h3>Lorem</h3>
         <p>
@@ -158,7 +182,7 @@
           et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet .
         </p>
         <h3>Amet Aungue</h3>
-        <p>
+        <p class="second-paragraphs">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa
           mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla,
           mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis
@@ -166,8 +190,8 @@
           suscipit magna interdum eu.
         </p>
         <h3>Lorem</h3>
-        <img src="./img/imgSecondary.png" alt="Img-secondary" />
-        <p>
+        <img src="./img/imgSecondary.png" alt="Img-secondary" class="img-secondary"/>
+        <p class="third-paragraphs">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa
           mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla,
           mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis
@@ -183,7 +207,7 @@
           ornare leo, non suscipit .Lorem ipsum dolor sit amet, consectetur
           adipiscing e
         </p>
-        <p>
+        <p class="paragraphs fourth-paragraphs">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa
           mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla,
           mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis
@@ -199,7 +223,8 @@
           ornare leo, non suscipit .Lorem ipsum dolor sit amet, consectetur
           adipiscing e
         </p>
-        <p>
+        <img src="./img/imgSecondary.png" alt="Img-secondary" class="img-secondary2"/>
+        <p class="fifth-paragraphs">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa
           mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla,
           mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis
@@ -215,10 +240,10 @@
           ornare leo, non suscipit .Lorem ipsum dolor sit amet, consectetur
           adipiscing e
         </p>
-        <img src="./img/imgSecondary.png" alt="Img-secondary" />
       </section>
-      <section>
-        <section>
+      <section class="lists-container">
+        <div class="lists-groups">
+        <div class="lists">
         <h3>Product</h3>
         <ol>
           <li><a href="">Functionalities</a></li>
@@ -226,8 +251,8 @@
           <li><a href="">Download</a></li>
           <li><a href="">Extra</a></li>
         </ol>
-      </section>
-      <section>
+      </div>
+      <div class="lists">
         <h3>Company</h3>
         <ol>
           <li><a href="">About us</a></li>
@@ -235,8 +260,8 @@
           <li><a href="">Resources</a></li>
           <li><a href="">Blog</a></li>
         </ol>
-      </section>
-      <section>
+      </div>
+      <div class="lists">
         <h3>Support</h3>
         <ol>
           <li><a href="">Help</a></li>
@@ -244,10 +269,13 @@
           <li><a href="">Api</a></li>
           <li><a href="">Contact</a></li>
         </ol>
-      </section>
+      </div>
+    </div>
     </section>
     </main>
     <footer>
+      <section class="footer-container">
+        <div>
       <a href="https://www.facebook.com/"
         ><img src="./img/iconFacebook.png" alt="Icon Facebook"
       /></a>
@@ -263,8 +291,10 @@
       <a href="https://github.com/"
         ><img src="./img/iconGithub.png" alt="Icon Github"
       /></a>
+    </div>
       <p>Montevideo, Uruguay</p>
       <p>Copyright © 2022 GigaTech Software Solutions SA</p>
+    </section>
     </footer>
   </body>
 </html>
