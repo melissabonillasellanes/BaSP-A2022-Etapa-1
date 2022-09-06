@@ -15,3 +15,6 @@ Within the system there are different roles with different functionalities. Thes
 
 ## Week 02
 Create an HTML document that has the same content as the landing of the screenflow of the first week, using the desktop version, and adding all the content that is visible both in this version and in the other versions (title, subtitles, date, text, images, links, etc.) respecting the semantic elements of HTML and saving the progress in a public Github repository.
+
+## Week 03
+It consists of including the styles corresponding to the HTML structure of week 02 to ensure that when viewing the page, it looks identical to the landing of the screenflow of the first week.
