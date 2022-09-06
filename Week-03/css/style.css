@@ -282,3 +282,36 @@ form option {
     border-radius: 5px;
     color: #FFFFFF;
 }
+
+.aboutUs-container {
+    width: 90%;
+    padding-bottom: 50px;
+    margin-left: 40px;
+    border-bottom: 4px solid #49A37B;
+}
+
+.aboutUs-container h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.aboutUs-container p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.aboutUs-container img {
+    display: inline-block;
+}
+
+.img-secondary2 {
+    display: inline-block;
+}
+
+.paragraphs {
+    width: 60%;
+}
+
+.fourth-paragraphs {
+    float: left;
+}
