@@ -1,0 +1,42 @@
+@media (min-width: 1024px) {
+  .button-menu {
+    display: none;
+  }
+}
+
+.button-menu {
+  border: none;
+  background: none;
+}
+
+.header-container {
+  display: flex;
+  padding-top: 0;
+  padding-bottom: 15px;
+}
+
+.header-container h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+
+.header-container div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.header-container p {
+  align-self: flex-end;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 480px) {
+  .header-container div {
+    flex-direction: row;
+  }
+}
