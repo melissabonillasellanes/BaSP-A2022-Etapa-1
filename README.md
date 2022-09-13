@@ -18,3 +18,6 @@ Create an HTML document that has the same content as the landing of the screenfl
 
 ## Week 03
 It consists of including the styles corresponding to the HTML structure of week 02 to ensure that when viewing the page, it looks identical to the landing of the screenflow of the first week.
+
+## Week 04
+It consists of replicating the landing page of the full week 01 screenflow using Flexbox as the main tool for creating a Responsive Design following the concept of Mobile First.

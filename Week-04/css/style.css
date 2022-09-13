@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background-color: #373867;
+  color: white;
+}
+
+header,
+main,
+footer {
+  font-family: "Roboto", sans-serif;
+}
+
+.header-container,
+.timeTracker-container,
+.functions-container,
+.article-container,
+.contact-container,
+.aboutUs-container,
+.lists-container,
+.footer-container {
+  border-bottom: 4px solid #49a37b;
+  width: 90%;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
