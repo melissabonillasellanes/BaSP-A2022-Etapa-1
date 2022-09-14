@@ -5,9 +5,9 @@ body {
   color: white;
 }
 
-header,
+.header-container,
 main,
-footer {
+.footer-container {
   font-family: "Roboto", sans-serif;
 }
 
@@ -19,7 +19,7 @@ footer {
 .aboutUs-container,
 .lists-container,
 .footer-container {
-  border-bottom: 4px solid #49a37b;
+  border-bottom: 4px solid #49A37B;
   width: 90%;
   padding-top: 40px;
   padding-bottom: 50px;

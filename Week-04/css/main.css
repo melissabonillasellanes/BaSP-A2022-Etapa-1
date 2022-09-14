@@ -11,41 +11,48 @@
 
 .timeTracker-container div h2 {
   font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
   margin-bottom: 20px;
 }
 
 .timeTracker-container div h3 {
   font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
   margin-bottom: 20px;
 }
 
 .timeTracker-container div p {
   font-size: 12px;
+  font-weight: 400;
+  text-align: justify;
   padding-bottom: 40px;
 }
 
 .timeTracker-container div a {
   padding: 14px 36px;
-  background-color: #49a37b;
+  background-color: #49A37B;;
+  color: #FFFFFF;
   border-radius: 5px;
   font-size: 15px;
   font-weight: 700;
+  line-height: 18px;
   text-align: center;
   text-decoration: none;
-  color: #ffffff;
 }
 
 .functions-container h2,
 .article-container h2,
 .contact-container h2,
 .aboutUs-container h2 {
-  padding-bottom: 7px;
   width: fit-content;
   margin-bottom: 40px;
-  border-bottom: 4px solid #49a37b;
+  border-bottom: 4px solid #49A37B;
   font-size: 30px;
   font-weight: 700;
   line-height: 35px;
+  padding-bottom: 7px;
 }
 
 .functions-container div {
@@ -72,7 +79,7 @@
   display: inline-block;
   width: 15%;
   min-width: 220px;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   color: #373867;
   border-radius: 17px;
   margin-bottom: 20px;
@@ -188,7 +195,7 @@ form option {
   font-weight: 400;
   line-height: 14px;
   font-style: italic;
-  border-left: 1px solid white;
+  border-left: 1px solid #FFFFFF;
   padding-left: 25px;
   text-align: justify;
 }
@@ -202,20 +209,18 @@ form option {
   display: none;
 }
 
-.lists-container h2 {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 23px;
-}
-
 .lists {
   margin-bottom: 25px;
   margin-left: 40px;
   margin-right: 40px;
 }
 
+.lists h3 {
+  margin-bottom: 20px;
+}
+
 .lists a {
-  color: #ffffff;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -251,8 +256,11 @@ form option {
     width: 45%;
   }
 
-  .imgSecondary {
-    display: block;
+  .lists {
+    padding-left: 50px;
+  }
+  .lists h3 {
+    margin-bottom: 20px;
   }
 }
 
@@ -279,5 +287,17 @@ form option {
 
   .paragraphs {
     display: block;
+  }
+
+  .imgSecondary,
+  .img-secondary {
+    display: block;
+  }
+
+  .lists {
+    padding-left: 50px;
+  }
+  .lists h3 {
+    margin-bottom: 20px;
   }
 }
