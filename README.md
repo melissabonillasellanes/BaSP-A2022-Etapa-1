@@ -21,3 +21,7 @@ It consists of including the styles corresponding to the HTML structure of week 
 
 ## Week 04
 It consists of replicating the landing page of the full week 01 screenflow using Flexbox as the main tool for creating a Responsive Design following the concept of Mobile First.
+
+## Week 05
+Considering the comments provided by the tutors, improve what was delivered in weekly problem 4 by implementing what was corrected.
+Do JavaScript exercises on the following topics: Variables and Operators, Strings, Arrays, If Else, For and Functions.
