@@ -74,6 +74,10 @@
   font-weight: 400;
 }
 
+.articles {
+  text-align: center;
+}
+
 .article {
   position: relative;
   display: inline-block;
@@ -84,6 +88,7 @@
   border-radius: 17px;
   margin-bottom: 20px;
   margin-right: 10px;
+  text-align: left;
 }
 
 .article img {

@@ -8,6 +8,7 @@ aside {
     display: block;
     position: fixed;
     width: 25%;
+    height: 100%;
     background-color: #262862;
   }
 
@@ -20,6 +21,7 @@ aside {
 }
 
 .search-container input {
+  display: flex;
     width: 280px;
     height: 50px;
     background-color: #262862;
@@ -28,7 +30,6 @@ aside {
 }
 
 .links-container {
-    width: 350px;
     height: 10vh;
     margin-top: 50px;
     margin-left: 20px;
