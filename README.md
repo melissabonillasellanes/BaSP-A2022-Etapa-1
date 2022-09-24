@@ -25,3 +25,6 @@ It consists of replicating the landing page of the full week 01 screenflow using
 ## Week 05
 Considering the comments provided by the tutors, improve what was delivered in weekly problem 4 by implementing what was corrected.
 Do JavaScript exercises on the following topics: Variables and Operators, Strings, Arrays, If Else, For and Functions.
+
+## Week 06
+Create the following screens following the Screenflow made in Week 01: Employee Login and Registration, add the corresponding styles in css, and add the necessary JavaScript files for each screen that will use the DOM.
