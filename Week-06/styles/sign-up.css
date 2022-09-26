@@ -1,0 +1,92 @@
+body {
+    flex-direction: column;
+    color: #373867;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    color: white;
+    background-color: #373867;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.home {
+    align-self: flex-start;
+    font-size: 15px;
+    margin: 15px;
+    padding: 8px;
+    border: 2px solid #373867;
+    background-color: #AACE9B;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 550px;
+    margin: auto;
+    height: 100%;
+}
+
+input {
+    border: transparent;
+    border-bottom: 1px solid #373867;
+}
+
+label {
+    margin-right: 5px;
+}
+
+form div {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    width: 45%;
+}
+
+.button-create {
+    padding: 12px 0px;
+    background: #AACE9B;
+    font-size: 15px;
+    font-weight: 700;
+    color: #373867;
+    border: 1px solid #373867;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.email {
+    width: 100%;
+}
+
+p, a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #373867;
+    padding-top: 20px;
+}
+
+@media (max-width: 820px) {
+    form {
+    width: 100%;
+    }
+
+    form input {
+    width: 100%;
+    }
+}
