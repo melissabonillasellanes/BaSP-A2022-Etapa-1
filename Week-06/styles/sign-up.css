@@ -22,6 +22,8 @@ h2 {
 main {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .home {
@@ -34,10 +36,20 @@ main {
     border-radius: 10px;
 }
 
+.signUp-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #373867;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px #373867;
+    width: 50%;
+    padding: 10px;
+}
+
 form {
     display: flex;
     flex-wrap: wrap;
-    width: 700px;
+    /* width: 700px; */
     margin: auto;
     height: 100%;
 }
@@ -93,7 +105,11 @@ p, a {
     visibility: visible;
 }
 
-@media (max-width: 820px) {
+@media (max-width: 1000px) {
+    .validation {
+        width: 100%;
+    }
+
     form {
     width: 100%;
     }
