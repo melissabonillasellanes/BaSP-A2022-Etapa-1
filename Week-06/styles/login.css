@@ -90,6 +90,18 @@ a {
     border: none;
 }
 
+.validation p {
+    visibility: hidden;
+}
+
+.validation.error input {
+    border: solid 1px #FF0000;
+}
+
+.validation.error p {
+    visibility: visible;
+}
+
 @media (max-width: 600px) {
     .login-container {
         width: 85%;
