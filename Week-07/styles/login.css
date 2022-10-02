@@ -1,0 +1,115 @@
+body {
+    flex-direction: column;
+    color: #373867;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    color: white;
+    background-color: #373867;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    width: 65%;
+    height: 570px;
+}
+
+.home {
+    align-self: flex-start;
+    font-size: 15px;
+    margin: 15px;
+    padding: 8px;
+    border: 2px solid #373867;
+    background-color: #AACE9B;
+    border-radius: 10px;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    border: 1px solid #373867;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 0 3px 8px #373867;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    height: 65%;
+}
+
+.rememberme {
+    display: flex;
+    align-items: center;
+}
+
+.rememberme label {
+    font-size: 12px;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.button-continue {
+    padding: 12px 0px;
+    background: #AACE9B;
+    font-size: 15px;
+    font-weight: 700;
+    color: #373867;
+    border: 1px solid #373867;
+    border-radius: 10px;
+}
+
+.form-email,
+.form-password {
+    border-bottom: 1px solid #373867;
+}
+
+.form-email input,
+.form-password input {
+    border: none;
+}
+
+.validation p {
+    visibility: hidden;
+}
+
+.validation.error input {
+    border: solid 1px #FF0000;
+}
+
+.validation.error p {
+    visibility: visible;
+}
+
+@media (max-width: 600px) {
+    .login-container {
+        width: 100%;
+        display: flex;
+}
+    main {
+        display: flex;
+        width: 80%;
+    }
+}

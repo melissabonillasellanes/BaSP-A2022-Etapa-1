@@ -35,6 +35,9 @@ Create the following screens following the Screenflow made in Week 01: Employee 
 https://melissabonillasellanes.github.io/BaSP-A2022-Etapa-1/Week-06/views/login.html
 https://melissabonillasellanes.github.io/BaSP-A2022-Etapa-1/Week-06/views/sign-up.html
 
+## Week 07
+It consists of extending the forms of week 06 so that when pressing the confirmation buttons, the data loaded in them is sent to a web server through an HTTP call (request) from JavaScript.
+
 # Author
 
 ## Melissa Bonilla

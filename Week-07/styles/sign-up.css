@@ -1,0 +1,120 @@
+body {
+    flex-direction: column;
+    color: #373867;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    color: white;
+    background-color: #373867;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home {
+    align-self: flex-start;
+    font-size: 15px;
+    margin: 15px;
+    padding: 8px;
+    border: 2px solid #373867;
+    background-color: #AACE9B;
+    border-radius: 10px;
+}
+
+.signUp-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #373867;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px #373867;
+    width: 50%;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 700px; */
+    margin: auto;
+    height: 100%;
+}
+
+input {
+    border: transparent;
+    border-bottom: 1px solid #373867;
+}
+
+label {
+    margin-right: 5px;
+}
+
+form div {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    width: 45%;
+}
+
+.button-create {
+    padding: 12px 0px;
+    background: #AACE9B;
+    font-size: 15px;
+    font-weight: 700;
+    color: #373867;
+    border: 1px solid #373867;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.email {
+    width: 100%;
+}
+
+p, a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #373867;
+    padding-top: 25px;
+}
+
+.validation p {
+    visibility: hidden;
+}
+
+.validation.error input {
+    border: solid 1px #FF0000;
+}
+
+.validation.error p {
+    visibility: visible;
+}
+
+@media (max-width: 1000px) {
+    .validation {
+        width: 100%;
+    }
+
+    form {
+    width: 100%;
+    }
+
+    form input {
+    width: 100%;
+    }
+}

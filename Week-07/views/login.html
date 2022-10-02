@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="../styles/reset.css">
+            <link rel="stylesheet" href="../styles/style.css">
+            <link rel="stylesheet" href="../styles/login.css">
+            <script src="../javascript/login.js"></script>
+            <title>Login Trackgenix</title>
+        </head>
+        <body>
+            <header>
+                <h1>TRACKGENIX</h1>
+            </header>
+            <main>
+                <a href="../views/index.html" class="home">Home</a>
+                <div class="login-container">
+                    <h2>Sign In</h2>
+                    <form class="form validation">
+                        <div class="form-email">
+                            <img src="../assets/iconEmailLogin.png" alt="Icon Email" />
+                            <input type="text" placeholder="E-mail" id="email"/>
+                            <p>Error</p>
+                        </div>
+                        <div class="form-password validation">
+                            <img src="../assets/iconPasswordLogin.png" alt="Icon Password" />
+                            <input type="password" placeholder="Password" id="password"/>
+                            <p>Error</p>
+                        </div>
+                        <div class="rememberme">
+                            <input type="checkbox" name="checkbox" id="checkbox" checked />
+                            <label for="checkbox">Remember me</label>
+                        </div>
+                        <a href="">Forgot password?</a>
+                        <button class="button-continue" type="submit" id="button">Continue</button>
+                    </form>
+                </div>
+            </main>
+        </body>
+    </html>
