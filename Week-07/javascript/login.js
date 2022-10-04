@@ -72,14 +72,37 @@ window.onload = function () {
         container.className = "validation";
     }
 
-    button.addEventListener("click", function(btn){
-        btn.preventDefault();
-        validation(email);
-        validation(password);
-        if (validation(email) == "" && validation(password) == "") {
-            alert("Successful login \n Email: " + email.value + "\n Password: " + password.value);
-        } else {
-            alert("There was a mistake. Please enter the data correctly" + "\n" + validation(email) + "\n" + validation(password));
+    function get (email, password) {
+        var login = {
+            email: "rose@radiumrocket.com",
+            password: "BaSP2022"
         }
-    });
+        if(login.email === email && login.password === password) {
+            var loginValid  = "?email=" + login.email + "&password=" + login.password;
+        } else {
+            loginValid = "";
+        }
+    fetch("https://basp-m2022-api-rest-server.herokuapp.com/login" + loginValid)
+        .then(function(response) {
+            return response.json();
+        })
+        .then(function(responseJson) {
+            if(responseJson.success) {
+                alert("Logged successfully: \nEmail: " + responseJson.msg + "\nPassword: " + responseJson.msg);
+            }
+            else{
+                alert("Failed login.\nThe account entered is not valid");
+            }
+        })
+        .catch(function(error) {
+            alert(error);
+        })
+    };
+
+    button.onclick = function(btn) {
+        btn.preventDefault()
+        if(validation(email) == "" && validation(password) == "") {
+            get(email.value, password.value);
+        }
+    };
 };
