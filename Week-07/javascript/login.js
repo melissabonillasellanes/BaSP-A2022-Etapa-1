@@ -88,7 +88,7 @@ window.onload = function () {
         })
         .then(function(responseJson) {
             if(responseJson.success) {
-                alert("Logged successfully: \nEmail: " + responseJson.msg + "\nPassword: " + responseJson.msg);
+                alert("Logged successfully: " + responseJson.msg);
             }
             else{
                 alert("Failed login.\nThe account entered is not valid");
