@@ -37,6 +37,8 @@ https://melissabonillasellanes.github.io/BaSP-A2022-Etapa-1/Week-06/views/sign-u
 
 ## Week 07
 It consists of extending the forms of week 06 so that when pressing the confirmation buttons, the data loaded in them is sent to a web server through an HTTP call (request) from JavaScript.
+https://melissabonillasellanes.github.io/BaSP-A2022-Etapa-1/Week-07/views/login.html
+https://melissabonillasellanes.github.io/BaSP-A2022-Etapa-1/Week-07/views/sign-up.html
 
 # Author
 
