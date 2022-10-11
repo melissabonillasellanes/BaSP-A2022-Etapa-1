@@ -330,7 +330,6 @@ function displayError(res) {
         })
         .then(function (jsonResponse) {
             if (jsonResponse.success) {
-                alert("The request was successful: " + jsonResponse.msg);
                 saveLocal(jsonResponse);
             } else {
             throw jsonResponse
